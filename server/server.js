@@ -7,5 +7,5 @@ app.use(express.static(publicPath))
 app.get('*', (req, res) => {
     res.sendFile(`${publicPath}/index.html`)
 })
-
+ 
 app.listen(port, () => console.log('serving on port 3000'))
