@@ -1,0 +1,211 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render ExpenseListFilters default Values 1`] = `
+<div>
+  <label>
+    Search: 
+    <input
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </label>
+  <select
+    onChange={[Function]}
+  >
+    <option
+      value="date"
+    >
+      Date
+    </option>
+    <option
+      value="amount"
+    >
+      Amount
+    </option>
+  </select>
+  <span>
+    Start Date
+  </span>
+  <DatePicker
+    allowSameDay={false}
+    dateFormat="MMMM d, yyyy"
+    dateFormatCalendar="LLLL yyyy"
+    disabled={false}
+    disabledKeyboardNavigation={false}
+    dropdownMode="scroll"
+    inlineFocusSelectedMonth={false}
+    monthsShown={1}
+    nextMonthButtonLabel="Next month"
+    onBlur={[Function]}
+    onChange={[Function]}
+    onChangeRaw={[Function]}
+    onClickOutside={[Function]}
+    onFocus={[Function]}
+    onInputClick={[Function]}
+    onInputError={[Function]}
+    onKeyDown={[Function]}
+    onMonthChange={[Function]}
+    onSelect={[Function]}
+    onYearChange={[Function]}
+    preventOpenOnFocus={false}
+    previousMonthButtonLabel="Previous Month"
+    readOnly={false}
+    renderDayContents={[Function]}
+    selected={null}
+    shouldCloseOnSelect={true}
+    showMonthYearPicker={false}
+    showTimeInput={false}
+    showTimeSelect={false}
+    strictParsing={false}
+    timeCaption="Time"
+    timeInputLabel="Time"
+    timeIntervals={30}
+    withPortal={false}
+  />
+  <span>
+    End Date
+  </span>
+  <DatePicker
+    allowSameDay={false}
+    dateFormat="MMMM d, yyyy"
+    dateFormatCalendar="LLLL yyyy"
+    disabled={false}
+    disabledKeyboardNavigation={false}
+    dropdownMode="scroll"
+    inlineFocusSelectedMonth={false}
+    monthsShown={1}
+    nextMonthButtonLabel="Next month"
+    onBlur={[Function]}
+    onChange={[Function]}
+    onChangeRaw={[Function]}
+    onClickOutside={[Function]}
+    onFocus={[Function]}
+    onInputClick={[Function]}
+    onInputError={[Function]}
+    onKeyDown={[Function]}
+    onMonthChange={[Function]}
+    onSelect={[Function]}
+    onYearChange={[Function]}
+    preventOpenOnFocus={false}
+    previousMonthButtonLabel="Previous Month"
+    readOnly={false}
+    renderDayContents={[Function]}
+    selected={null}
+    shouldCloseOnSelect={true}
+    showMonthYearPicker={false}
+    showTimeInput={false}
+    showTimeSelect={false}
+    strictParsing={false}
+    timeCaption="Time"
+    timeInputLabel="Time"
+    timeIntervals={30}
+    withPortal={false}
+  />
+</div>
+`;
+
+exports[`should render ExpenseListFilters with provided Values 1`] = `
+<div>
+  <label>
+    Search: 
+    <input
+      onChange={[Function]}
+      type="text"
+      value="rent"
+    />
+  </label>
+  <select
+    onChange={[Function]}
+  >
+    <option
+      value="date"
+    >
+      Date
+    </option>
+    <option
+      value="amount"
+    >
+      Amount
+    </option>
+  </select>
+  <span>
+    Start Date
+  </span>
+  <DatePicker
+    allowSameDay={false}
+    dateFormat="MMMM d, yyyy"
+    dateFormatCalendar="LLLL yyyy"
+    disabled={false}
+    disabledKeyboardNavigation={false}
+    dropdownMode="scroll"
+    inlineFocusSelectedMonth={false}
+    monthsShown={1}
+    nextMonthButtonLabel="Next month"
+    onBlur={[Function]}
+    onChange={[Function]}
+    onChangeRaw={[Function]}
+    onClickOutside={[Function]}
+    onFocus={[Function]}
+    onInputClick={[Function]}
+    onInputError={[Function]}
+    onKeyDown={[Function]}
+    onMonthChange={[Function]}
+    onSelect={[Function]}
+    onYearChange={[Function]}
+    preventOpenOnFocus={false}
+    previousMonthButtonLabel="Previous Month"
+    readOnly={false}
+    renderDayContents={[Function]}
+    selected={0}
+    shouldCloseOnSelect={true}
+    showMonthYearPicker={false}
+    showTimeInput={false}
+    showTimeSelect={false}
+    strictParsing={false}
+    timeCaption="Time"
+    timeInputLabel="Time"
+    timeIntervals={30}
+    withPortal={false}
+  />
+  <span>
+    End Date
+  </span>
+  <DatePicker
+    allowSameDay={false}
+    dateFormat="MMMM d, yyyy"
+    dateFormatCalendar="LLLL yyyy"
+    disabled={false}
+    disabledKeyboardNavigation={false}
+    dropdownMode="scroll"
+    inlineFocusSelectedMonth={false}
+    monthsShown={1}
+    nextMonthButtonLabel="Next month"
+    onBlur={[Function]}
+    onChange={[Function]}
+    onChangeRaw={[Function]}
+    onClickOutside={[Function]}
+    onFocus={[Function]}
+    onInputClick={[Function]}
+    onInputError={[Function]}
+    onKeyDown={[Function]}
+    onMonthChange={[Function]}
+    onSelect={[Function]}
+    onYearChange={[Function]}
+    preventOpenOnFocus={false}
+    previousMonthButtonLabel="Previous Month"
+    readOnly={false}
+    renderDayContents={[Function]}
+    selected={3}
+    shouldCloseOnSelect={true}
+    showMonthYearPicker={false}
+    showTimeInput={false}
+    showTimeSelect={false}
+    strictParsing={false}
+    timeCaption="Time"
+    timeInputLabel="Time"
+    timeIntervals={30}
+    withPortal={false}
+  />
+</div>
+`;

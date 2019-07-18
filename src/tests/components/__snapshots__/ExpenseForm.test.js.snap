@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render expense form correctly 1`] = `
+<div>
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      autoFocus={true}
+      onChange={[Function]}
+      placeholder="Description"
+      required={true}
+      type="text"
+      value="1"
+    />
+    <input
+      onChange={[Function]}
+      placeholder="Amount"
+      required={true}
+      type="text"
+      value={3}
+    />
+    <br />
+    <DatePicker
+      allowSameDay={false}
+      dateFormat="MMMM d, yyyy"
+      dateFormatCalendar="LLLL yyyy"
+      disabled={false}
+      disabledKeyboardNavigation={false}
+      dropdownMode="scroll"
+      inlineFocusSelectedMonth={false}
+      monthsShown={1}
+      nextMonthButtonLabel="Next month"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onChangeRaw={[Function]}
+      onClickOutside={[Function]}
+      onFocus={[Function]}
+      onInputClick={[Function]}
+      onInputError={[Function]}
+      onKeyDown={[Function]}
+      onMonthChange={[Function]}
+      onSelect={[Function]}
+      onYearChange={[Function]}
+      preventOpenOnFocus={false}
+      previousMonthButtonLabel="Previous Month"
+      readOnly={false}
+      renderDayContents={[Function]}
+      selected={1}
+      shouldCloseOnSelect={true}
+      showMonthYearPicker={false}
+      showTimeInput={false}
+      showTimeSelect={false}
+      strictParsing={false}
+      timeCaption="Time"
+      timeInputLabel="Time"
+      timeIntervals={30}
+      withPortal={false}
+    />
+    <textarea
+      onChange={[Function]}
+      placeholder="Add a note for you expense (optional)"
+      value=""
+    />
+    <button>
+      Add Expense
+    </button>
+  </form>
+</div>
+`;
+
+exports[`should render expense form with expense data 1`] = `
+<div>
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      autoFocus={true}
+      onChange={[Function]}
+      placeholder="Description"
+      required={true}
+      type="text"
+      value="1"
+    />
+    <input
+      onChange={[Function]}
+      placeholder="Amount"
+      required={true}
+      type="text"
+      value={3}
+    />
+    <br />
+    <DatePicker
+      allowSameDay={false}
+      dateFormat="MMMM d, yyyy"
+      dateFormatCalendar="LLLL yyyy"
+      disabled={false}
+      disabledKeyboardNavigation={false}
+      dropdownMode="scroll"
+      inlineFocusSelectedMonth={false}
+      monthsShown={1}
+      nextMonthButtonLabel="Next month"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onChangeRaw={[Function]}
+      onClickOutside={[Function]}
+      onFocus={[Function]}
+      onInputClick={[Function]}
+      onInputError={[Function]}
+      onKeyDown={[Function]}
+      onMonthChange={[Function]}
+      onSelect={[Function]}
+      onYearChange={[Function]}
+      preventOpenOnFocus={false}
+      previousMonthButtonLabel="Previous Month"
+      readOnly={false}
+      renderDayContents={[Function]}
+      selected={1}
+      shouldCloseOnSelect={true}
+      showMonthYearPicker={false}
+      showTimeInput={false}
+      showTimeSelect={false}
+      strictParsing={false}
+      timeCaption="Time"
+      timeInputLabel="Time"
+      timeIntervals={30}
+      withPortal={false}
+    />
+    <textarea
+      onChange={[Function]}
+      placeholder="Add a note for you expense (optional)"
+      value=""
+    />
+    <button>
+      Add Expense
+    </button>
+  </form>
+</div>
+`;
