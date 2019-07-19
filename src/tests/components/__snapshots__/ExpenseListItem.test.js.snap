@@ -10,11 +10,12 @@ exports[`should render expense list component with expense info 1`] = `
     </h3>
   </Link>
   <p>
-    Price | $
+    Price | 
+    $0.00
   </p>
   <p>
     Spent on 
-    Jul 16th 2019
+    Jul 18th 2019
   </p>
   <p />
   <br />
