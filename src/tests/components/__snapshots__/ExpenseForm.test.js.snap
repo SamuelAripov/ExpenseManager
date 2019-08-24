@@ -17,7 +17,7 @@ exports[`should render expense form correctly 1`] = `
       onChange={[Function]}
       placeholder="Amount"
       required={true}
-      type="text"
+      type="number"
       value={3}
     />
     <br />
@@ -63,7 +63,7 @@ exports[`should render expense form correctly 1`] = `
       value=""
     />
     <button>
-      Add Expense
+      Submit
     </button>
   </form>
 </div>
@@ -86,7 +86,7 @@ exports[`should render expense form with expense data 1`] = `
       onChange={[Function]}
       placeholder="Amount"
       required={true}
-      type="text"
+      type="number"
       value={3}
     />
     <br />
@@ -132,7 +132,7 @@ exports[`should render expense form with expense data 1`] = `
       value=""
     />
     <button>
-      Add Expense
+      Submit
     </button>
   </form>
 </div>

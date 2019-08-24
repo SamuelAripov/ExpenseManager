@@ -24,9 +24,7 @@ exports[`should render ExpenseListFilters default Values 1`] = `
       Amount
     </option>
   </select>
-  <span>
-    Start Date
-  </span>
+  <br />
   <DatePicker
     allowSameDay={false}
     dateFormat="MMMM d, yyyy"
@@ -64,7 +62,7 @@ exports[`should render ExpenseListFilters default Values 1`] = `
     withPortal={false}
   />
   <span>
-    End Date
+     - 
   </span>
   <DatePicker
     allowSameDay={false}
@@ -129,9 +127,7 @@ exports[`should render ExpenseListFilters with provided Values 1`] = `
       Amount
     </option>
   </select>
-  <span>
-    Start Date
-  </span>
+  <br />
   <DatePicker
     allowSameDay={false}
     dateFormat="MMMM d, yyyy"
@@ -169,7 +165,7 @@ exports[`should render ExpenseListFilters with provided Values 1`] = `
     withPortal={false}
   />
   <span>
-    End Date
+     - 
   </span>
   <DatePicker
     allowSameDay={false}

@@ -1,8 +1,10 @@
 // Expenses Reducer
+import database from '../firebase/firebase'
 
 export default (state = [], action) => {
     switch (action.type) {
         case 'ADD_EXPENSE': {
+            console.log(action.expense)
             return [
                 ...state,
                 action.expense
@@ -22,7 +24,12 @@ export default (state = [], action) => {
                     return expense
             })
         }
-
+        case 'SET_EXPENSES': {
+            return action.expenses
+        }
+        case 'CLEAR_EXPENSES': {
+            return []
+        }
         default:
             return state;
     }

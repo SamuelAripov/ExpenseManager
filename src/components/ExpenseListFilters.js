@@ -22,14 +22,14 @@ export class ExpenseListFilters extends React.Component {
                     <option value="date">Date</option>
                     <option value="amount">Amount</option>
                 </select>
-                <span>Start Date</span>
+                <br/>
                 <DatePicker
                     selected={this.props.filters.startDate}
                     onChange={(e) => this.props.setStartDate(e.valueOf())}
                     dateFormat="MMMM d, yyyy"
                     onChangeRaw={(e) => e.preventDefault()}
                 />
-                <span>End Date</span>
+                <span> - </span>
                 <DatePicker
                     selected={this.props.filters.endDate}
                     onChange={(e) => this.props.setEndDate(e.valueOf())}

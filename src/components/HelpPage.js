@@ -1,8 +1,8 @@
 import React from 'react'
 
-const HelpPage = () => (
+const HelpPage = (props) => (
     <div>
-        Help
+        <h1>{props}</h1>
     </div>
 )
 

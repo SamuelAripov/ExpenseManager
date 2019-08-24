@@ -51,7 +51,7 @@ export default class ExpenseForm extends React.Component {
                         required
                     />
                     <input
-                        type="text"
+                        type="number"
                         placeholder="Amount"
                         value={this.state.amount}
                         onChange={this.onAmountChange}
@@ -70,7 +70,7 @@ export default class ExpenseForm extends React.Component {
                         onChange={this.onTextFormChange}
                     >
                     </textarea>
-                    <button>Add Expense</button>
+                    <button>Submit</button>
                 </form>
             </div>
         )
