@@ -1,0 +1,35 @@
+.list-header{
+    background-color: $lite-grey;
+    border: 1px solid darken($color: $lite-grey, $amount: 7%);
+    display: flex;
+    color: $grey;
+    justify-content: space-between;
+    padding: $s-size $m-size;
+}
+
+.list-item{
+    border: 1px solid darken($color: $lite-grey, $amount: 7%);     
+    border-top: none;
+    color: $dark-grey;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    padding: $s-size;
+    transition: background .5s ease;
+    &:hover{
+        background: darken($color:$lite-grey, $amount: 5%);
+    }
+    @media (min-width: $desktop-breakpoint) {
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+.list-item__title{
+    margin: 0;
+    word-break: break-all;
+}
+.list-item__sub-title{
+    color: $grey;
+    font-size: 1.4rem;
+}

@@ -1,7 +1,9 @@
 import React from 'react'
 import DatePicker from 'react-datepicker'
+
+
 export default class ExpenseForm extends React.Component {
-    constructor(props){
+    constructor(props) {
         super(props)
         this.state = {
             description: props.expense ? props.expense.description : '',
@@ -11,7 +13,7 @@ export default class ExpenseForm extends React.Component {
             calendarFocused: false
         }
     }
-    
+
     onDescripitionChange = (e) => {
         const description = e.target.value
         this.setState(() => ({ description }))
@@ -41,36 +43,47 @@ export default class ExpenseForm extends React.Component {
     render() {
         return (
             <div>
-                <form onSubmit={this.onSubmit}>
-                    <input
-                        type="text"
-                        placeholder="Description"
-                        autoFocus
-                        value={this.state.description}
-                        onChange={this.onDescripitionChange}
-                        required
-                    />
-                    <input
-                        type="number"
-                        placeholder="Amount"
-                        value={this.state.amount}
-                        onChange={this.onAmountChange}
-                        required
-                    />
-                    <br />
-                    <DatePicker
-                        selected={this.state.createdAt}
-                        onChange={this.onDateChange}
-                        dateFormat="MMMM d, yyyy"
-                        onChangeRaw={(e) => e.preventDefault()}
-                    />
+                <form
+                    onSubmit={this.onSubmit}
+                >
+                    <div className="input-group">
+                        <input
+                            className='input-group__text'
+                            type="text"
+                            placeholder="Description"
+                            autoFocus
+                            value={this.state.description}
+                            onChange={this.onDescripitionChange}
+                            maxlength="30"
+                            required
+                        />
+                        <input
+                            className='input-group__text'
+                            type="number"
+                            placeholder="Amount"
+                            value={this.state.amount}
+                            onChange={this.onAmountChange}
+                            required
+                        />
+                        <DatePicker
+                            id='datePickers'
+                            className="input-group__datePicker"
+                            selected={this.state.createdAt}
+                            onChange={this.onDateChange}
+                            dateFormat="MMMM d, yyyy"
+                            onChangeRaw={(e) => e.preventDefault()}
+                        />
+                    </div>
                     <textarea
-                        placeholder="Add a note for you expense (optional)"
+                        className="input-group__textarea"
+                        placeholder="Add a note for your expense (optional)"
                         value={this.state.note}
                         onChange={this.onTextFormChange}
+                        maxlength="250"
                     >
                     </textarea>
-                    <button>Submit</button>
+                    <br></br>
+                    <button className='button__submit'>Submit</button>
                 </form>
             </div>
         )

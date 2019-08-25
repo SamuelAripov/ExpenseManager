@@ -5,7 +5,8 @@ import { startRemoveExpense, startEditExpense } from '../actions/expenses'
 export class EditExpensePage extends React.Component {
     render() {
         return (
-            <div>
+            <div className="content-container">
+                <h1>Editing: {this.props.expense.description}</h1>
                 <ExpenseForm
                     expense={this.props.expense}
                     onSubmit={(expense) => {
@@ -13,10 +14,12 @@ export class EditExpensePage extends React.Component {
                         this.props.history.push('/dashboard')
                     }}
                 />
-                <button onClick={() => {
-                    this.props.startRemoveExpense(this.props.expense.id)
-                    this.props.history.push('/dashboard')
-                }}>Remove Expense</button>
+                <button
+                    className="button__submit"
+                    onClick={() => {
+                        this.props.startRemoveExpense(this.props.expense.id)
+                        this.props.history.push('/dashboard')
+                    }}>Remove Expense</button>
             </div>
         )
     }

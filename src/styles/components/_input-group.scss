@@ -1,0 +1,46 @@
+.input-group{
+    display: flex;
+    flex-direction: column;
+    @media (min-width: $desktop-breakpoint){
+        flex-direction: row;        
+    }
+}
+
+.input-group__item{
+    padding-right: 1rem;
+}
+
+.input-group__text{
+    height: 3rem;
+    width: 20rem;
+    @media (min-width: $desktop-breakpoint){
+        width: 20rem;    
+    }
+}
+
+.input-group__sortBy{
+    height: 3.5rem;
+    width: 20.3rem;    
+    @media (min-width: $desktop-breakpoint){
+        width: 8rem;
+    }
+}
+
+.input-group__datePicker{
+    height: 3rem;
+    width: 20rem;   
+    @media (min-width: $desktop-breakpoint){
+        width: 12rem;
+    }
+}
+.input-group__textarea{
+    height: 10rem;
+    min-height: 10rem;
+    max-height: 10rem;
+    width: 19.8rem;
+    @media (min-width: $desktop-breakpoint){
+        width: 52.5rem;
+        min-width: 52.5rem;
+        max-width: 52.5rem;
+    }
+}

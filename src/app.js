@@ -27,7 +27,7 @@ const renderApp = () => {
     }
 }
 
-ReactDOM.render(<p>Loading...</p>, document.querySelector('#appDiv'))
+ReactDOM.render(<div className='load-background'><div className='box-layout__box'><div className='loading'></div></div></div>, document.querySelector('#appDiv'))
 
 firebase.auth().onAuthStateChanged((user) => {
     if (user) {

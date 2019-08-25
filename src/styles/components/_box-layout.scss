@@ -1,0 +1,35 @@
+.box-layout {
+    display: flex;
+    align-content: center;
+    background-image: url('/images/road.jpg') ;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.box-layout__box {
+    text-align: center;
+    background: fade-out($color: #ffffff, $amount: 0.15);
+    border-radius: 3px;
+    padding: $m-size $s-size;
+    height: 13rem;
+    width: 35rem;
+    margin: auto;
+}
+.box-layout__loadingBox {
+    text-align: center;
+    background: fade-out($color: #ffffff, $amount: 0.15);
+    border-radius: 3px;
+    height: 13rem;
+    width: 35rem;
+    margin: auto;
+}
+.box-layout__title {
+    margin: 0 0 $s-size 0;
+    line-height: 1;
+}
